@@ -1,0 +1,169 @@
+Manual Github Recon
+
+GitHub Dork List :
+
+--GitHub Dorks for Finding Files--
+
+filename:.bash_history <Domain name>
+filename:.bash_profile aws
+filename:.bashrc mailchimp
+filename:.bashrc password
+filename:.cscfg
+filename:.cshrc
+filename:.dockercfg auth
+filename:.env DB_USERNAME NOT
+filename:.env MAIL_HOST=smtp.gmail.com
+filename:.esmtprc password
+filename:.exports
+filename:.ftpconfig
+filename:.git-credentials
+filename:.htpasswd
+filename:.keychain
+filename:.kwallet
+filename:.mdf
+filename:.netrc password
+filename:.npmrc _auth
+filename:.ovpn
+filename:.pgpass
+filename:.psafe3
+filename:.rdp
+filename:.remote-sync.json
+filename:.s3cfg
+filename:.sdf
+filename:.sh_history
+filename:.sqlite
+filename:.tugboat NOT _tugboat
+filename:CCCam.cfg
+filename:LocalSettings.php
+filename:WebServers.xml
+filename:_netrc password
+filename:apikey
+filename:carrierwave.rb
+filename:config.inc.php
+filename:config.php dbpasswd
+filename:config.yaml
+filename:configuration.php JConfig password
+filename:connections.xml
+filename:credentials aws_access_key_id
+filename:credentials aws_access_key_idfilename:hub oauth_token
+filename:credentials.xml
+filename:database
+filename:database.yml
+filename:dbeaver-data-sources.xml
+filename:dhcpd.conf
+filename:git-credentials
+filename:github-recovery-codes.txt
+filename:gitlab-recovery-codes.txt
+filename:hub oauth_token
+filename:id_dsa
+filename:id_rsa
+filename:idea14.key
+filename:manifest.xml
+filename:passwd path:etc
+filename:prod.exs NOT prod.secret.exs
+filename:prod.secret.exs
+filename:proftpdpasswd
+filename:robomongo.json
+filename:s3cfg
+filename:secret token.rb
+filename:secrets.yml password
+filename:settings.py
+filename:sftp-config.json
+filename:sftp.json path:.vscode
+filename:shadow path:etc
+filename:sshd_config
+filename:travis.yml
+filename:vim_settings.xml
+filename:wp-config.php
+
+
+
+--GitHub Dorks for Finding Languages--
+
+language:html password
+language:java api
+language:perl password
+language:php username
+language:python username
+language:shell username
+language:sql username
+
+
+--GitHub Dorks for Finding API Keys, Tokens and Passwords--
+
+> Usage- "site[dot]com" client_secret
+
+HOMEBREW_GITHUB_API_TOKEN
+OTP
+access_token
+api_key
+api_token:
+apikey
+auth
+authentication
+authorization_bearer:
+client_id
+client_secret
+client_secret
+config
+jira/root password
+jira_password
+oauth
+passcode
+passcode
+password
+password hash
+root password
+secret
+send_keys
+user auth
+user_pass
+user_password
+“api token”
+
+
+--GitHub Dorks for Finding Usernames--
+
+fullname:firstname lastname (fullname:<name> <surname>)
+in:email (data in:email)
+in:login (<username> in:login)
+in:name (<username> in:name)
+org:name (org:google type:users)
+user:name (user:admin)
+
+
+--GitHub Dorks for Finding Information using Dates--
+
+created:<2012–04–05
+created:>=2011–06–12
+created:2016–02–07 location:iceland
+created:2011–04–06..2013–01–14 <user> in:username
+
+
+--GitHub Dorks for Finding Information using Extension--
+
+[WFClient] Password= extension:ica
+extension : json api.forecast.io
+extension:avastlic “support.avast.com”
+extension:json api.forecast.io
+extension:json googleusercontent client_secret
+extension:json mongolab.com
+extension:pem private
+extension:ppk private
+extension:sql mysql dump
+extension:sql mysql dump password
+extension:yaml mongolab.com
+jsforce extension : js conn.login
+
+
+--others--
+
+msg nickserv identify filename:config
+path:sites databases password
+shodan_api_key language:python
+JEKYLL_GITHUB_TOKEN
+HEROKU_API_KEY language:json
+HEROKU_API_KEY language:shell
+SF_USERNAME salesforce
+.mlab.com password
+api.forecast.io
